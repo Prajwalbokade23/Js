@@ -68,3 +68,27 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+
+//Practice
+
+function addvalue (number1, number2){
+    return number1 + number2
+}
+
+const Object1 = {
+    name : "Prajwal",
+    email: "prajwal@gmail.com"
+}
+
+function addobject (anyobejct){
+    return anyobejct
+}
+
+const myarr = [200, 400, 500,600,1000]
+function addarr (anyarr) {
+
+    return anyarr
+}
+
+console.log(addvalue(2,3), addarr(myarr), addobject(Object1))
